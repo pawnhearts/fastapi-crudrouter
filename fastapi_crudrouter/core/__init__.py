@@ -1,5 +1,6 @@
 from . import _utils
 from ._base import NOT_FOUND, CRUDGenerator
+from .beanie import BeanieCRUDRouter
 from .databases import DatabasesCRUDRouter
 from .gino_starlette import GinoCRUDRouter
 from .mem import MemoryCRUDRouter
@@ -17,4 +18,5 @@ __all__ = [
     "TortoiseCRUDRouter",
     "OrmarCRUDRouter",
     "GinoCRUDRouter",
+    "BeanieCRUDRouter",
 ]
